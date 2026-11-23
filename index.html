@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Textos simples sobre acessibilidade na vida cotidiana.">
+  <title>Acessibilidade no dia a dia</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">Acessibilidade no dia a dia</a>
+      <button class="contrast-button" type="button" aria-pressed="false">Alto contraste</button>
+    </div>
+    <nav class="site-nav" aria-label="Navegação principal">
+      <a href="index.html" aria-current="page">Início</a>
+      <a href="transporte.html">Transporte</a>
+      <a href="comunicacao.html">Comunicação</a>
+      <a href="espacos.html">Espaços públicos</a>
+      <a href="tecnologia.html">Tecnologia</a>
+    </nav>
+  </header>
+
+  <main id="conteudo" class="content">
+    <p class="eyebrow">Acessibilidade é para todas as pessoas</p>
+    <h1>Pequenas mudanças tornam a vida mais acessível</h1>
+    <p class="intro">Acessibilidade é a condição que permite que pessoas com diferentes características e necessidades participem da sociedade com autonomia e segurança. Ela está no caminho até o trabalho, numa conversa, numa praça e também nos serviços digitais.</p>
+    <p>Este site reúne textos curtos sobre situações comuns. Em cada tema, vamos observar barreiras do cotidiano e atitudes que ajudam a removê-las. A responsabilidade pela acessibilidade é coletiva: pessoas, comunidades, empresas e governos podem contribuir.</p>
+
+    <section class="topics" aria-labelledby="temas-titulo">
+      <h2 id="temas-titulo">Leia sobre acessibilidade em diferentes contextos</h2>
+      <ul class="topic-list">
+        <li><a href="transporte.html"><span>01</span> Transporte acessível</a></li>
+        <li><a href="comunicacao.html"><span>02</span> Comunicação inclusiva</a></li>
+        <li><a href="espacos.html"><span>03</span> Espaços públicos para todos</a></li>
+        <li><a href="tecnologia.html"><span>04</span> Acessibilidade digital</a></li>
+      </ul>
+    </section>
+
+    <aside class="note" aria-labelledby="atitude-titulo">
+      <h2 id="atitude-titulo">Uma atitude que faz diferença</h2>
+      <p>Antes de ajudar, pergunte à pessoa se ela deseja ajuda e como você pode ajudar. Respeitar a autonomia também é uma forma de acessibilidade.</p>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <p>Informação e respeito ajudam a construir espaços melhores para todas as pessoas.</p>
+  </footer>
+</body>
+</html>
